@@ -1,0 +1,50 @@
+<!-- <form>
+  <ul>
+    <li class="playerInput"><input ng-model="player.name" placeholder="Nom"></li>
+    <li class="playerInput"><input ng-model="player.firstname" placeholder="Prénom"></li>
+    <li class="playerInput"><input ng-model="player.age" placeholder="Age"></li>
+    <li class="playerInput"><input ng-model="player.country" placeholder="Nationalité"></li>
+    <li class="playerInput"><input ng-model="player.club" placeholder="Club Actuel"></li>
+    <li class="playerInput">
+    <md-select ng-model="player.position" value="Poste">
+        <md-option value="BU">BU</md-option>
+        <md-option value="MO">MO</md-option>
+        <md-option value="MOD">MOD</md-option>
+        <md-option value="MGO">MOG</md-option>
+        <md-option value="MD">MD</md-option>
+        <md-option value="MG">MG</md-option>
+        <md-option value="MC">MC</md-option>
+        <md-option value="MDF">MDF</md-option>
+        <md-option value="DD">DD</md-option>
+        <md-option value="DG">DG</md-option>
+        <md-option value="DC">DC</md-option>
+        <md-option value="G">G</md-option>
+      </md-select>
+    </li>
+    <li class="playerInput"><input ng-model="player.position2" placeholder="Autre Poste"></li>
+    <li class="playerInput"><input ng-model="player.value" placeholder="Valeur en €"></li>
+    <li class="playerInput"><input ng-model="player.salary" placeholder="Salaire en €"></li>
+  </ul>
+    <button type="button" class="btn btn-success">Add Player</button>
+</form> -->
+<!-- <select name="Poste">
+<option value="BU" selected>BU</option>
+<option value="MO">MO</option>
+<option value="MD">MD</option>
+<option value="MG">MG</option>
+<option value="MC">MC</option>
+<option value="MDF">MDF</option>
+<option value="DD">DD</option>
+<option value="DG">DG</option>
+<option value="DC">DC</option>
+<option value="G">G</option>
+</select> -->
+<div layout="column" layout-align="center center" style="padding:40px" ng-cloak>
+  <p>Select can call an arbitrary function on show. If this function returns a promise, it will display a loading indicator while it is being resolved:</p>
+  <div layout="column" layout-align="center center">
+    <md-select placeholder="Assign to post" ng-model="post" md-on-open="loadPosts()" style="min-width: 200px;">
+      <md-option ng-value="post" ng-repeat="post in posts">{{post.name}}</md-option>
+    </md-select>
+    <p class="md-caption">You have assigned the task to: {{ post ? post.name : 'No one yet' }}</p>
+  </div>
+</div>

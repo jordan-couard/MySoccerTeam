@@ -1,0 +1,200 @@
+html {
+  background-color: #1e1e3c;
+}
+
+body {
+  background-color: #1e1e3c;
+}
+
+.terrain {
+  height: 700px;
+  width: 430px;
+  margin: 50px;
+  background-image: url(../img/terrain.jpg);
+  background-repeat: no-repeat;
+}
+
+.bu2 {
+  width: 70px;
+  margin-left: 93px;
+  margin-top: 75px;
+}
+
+#bu2 {
+  position: absolute;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: -85px;
+  color: maroon;
+}
+
+.bu1 {
+  width: 70px;
+  margin-left: 100px;
+  margin-top: -75px;
+}
+
+#bu1 {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-left: -100px;
+  margin-top: 50px;
+}
+
+.mc2 {
+  width: 70px;
+  position: absolute;
+  margin-top: 333px;
+  margin-left: -230px;
+}
+
+#mc2 {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 310px;
+  margin-left: -230px;
+}
+
+.mc1 {
+  width: 70px;
+  position: absolute;
+  margin-left: -83px;
+  margin-top: 333px;
+}
+
+#mc1 {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 310px;
+  margin-left: -80px;
+}
+
+.mg {
+  width: 70px;
+  margin-left: -320px;
+  margin-top: 215px;
+  position: absolute;
+}
+
+#mg {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-left: -320px;
+  margin-top: 195px;
+}
+
+.md {
+  width: 70px;
+  position: absolute;
+  margin-top: 215px;
+}
+
+#md {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 195px;
+  margin-left: -20px;
+}
+
+.dc2 {
+  width: 70px;
+  position: absolute;
+  margin-top: 480px;
+  margin-left: -205px;
+}
+
+#dc2 {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 460px;
+  margin-left: -215px;
+}
+
+.dc1 {
+  width: 70px;
+  position: absolute;
+  margin-top: 480px;
+  margin-left: -110px;
+}
+
+#dc1 {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 460px;
+  margin-left: -120px;
+}
+
+.dg {
+  width: 70px;
+  position: absolute;
+  margin-top: 480px;
+  margin-left: -315px;
+}
+
+#dg {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 460px;
+  margin-left: -325px;
+}
+
+.dd {
+  width: 70px;
+  position: absolute;
+  margin-top: 480px;
+}
+
+#dd {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-top: 460px;
+  margin-left: -10px;
+}
+
+.gk {
+  width: 70px;
+  position: absolute;
+  margin-left: -157px;
+  margin-top: 585px;
+}
+
+#gk {
+  position: absolute;
+  font-weight: bold;
+  color: maroon;
+  font-size: 15px;
+  margin-left: -157px;
+  margin-top: 565px;
+}
+
+/*Add Player Page*/
+
+.playerInput {
+  width: 500px;
+  margin: 20px;
+  color: lightblue;
+}
+button {
+    color: blue;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    margin: 20px;
+}
